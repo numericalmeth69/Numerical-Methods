@@ -1,0 +1,35 @@
+Pogo - a finite element package to simulate elastic wave propagation on the GPU
+Copyright (C) 2013 Peter Huthwaite
+
+If you find Pogo useful in your academic work, please cite the relevant papers;
+information on our latest papers is available at <http://www.pogo-fea.com/>.
+
+This release includes the following packages:
+
+- Eigen, a matrix library, downloadable from <http://eigen.tuxfamily.org/>.
+Eigen is released under the MPL v2. Eigen version 3.1.2 is included, unmodified
+in the directory common/eigen3/. 
+
+- "A C++ expression parser", downloadable from 
+<http://www.speqmath.com/tutorials/expression_parser_cpp/index.html>.
+This is released under the Apache License, Version 2.0, and included
+in the directory parser/. The parser is used to process Abaqus input files
+and is linked to in the abqConvert program. A few modifications have been 
+made to fit the needs (e.g. to match the error handling of the rest of 
+Pogo). 
+
+Both these licenses are compatible with the GNU GPL v3 and the text of 
+the licenses are included with this release.
+
+Pogo is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Pogo is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Pogo.  If not, see <http://www.gnu.org/licenses/>.
